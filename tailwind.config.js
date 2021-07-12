@@ -11,6 +11,9 @@ module.exports = {
         secondary: '#00494d',
         third: '#26c0ab',
         inputs: '#f4fafa',
+        label_1: '#5e7a7d',
+        label_2: '#7f9c9f',
+        disabled: '#006166',
       }
     },
   },
