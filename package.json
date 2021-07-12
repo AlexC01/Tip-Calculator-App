@@ -4,7 +4,7 @@
   "description": "This is a Tip Calculator App, where you can add the total of your bill, then select the % of the tip you want to give, and write the number of people, and this will calculate the tip.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "tailwindcss -i src/css/styles.css -o src/css/tailwind.css"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "devDependencies": {
     "autoprefixer": "^10.3.0",
     "postcss": "^8.3.5",
-    "tailwindcss": "^2.2.4"
+    "tailwindcss": "^2.2.4",
+    "vite": "^2.4.1"
   }
 }
