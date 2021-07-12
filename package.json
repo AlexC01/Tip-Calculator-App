@@ -1,0 +1,25 @@
+{
+  "name": "Tip_Calculator_App",
+  "version": "1.0.0",
+  "description": "This is a Tip Calculator App, where you can add the total of your bill, then select the % of the tip you want to give, and write the number of people, and this will calculate the tip.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexC01/Tip-Calculator-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexC01/Tip-Calculator-App/issues"
+  },
+  "homepage": "https://github.com/AlexC01/Tip-Calculator-App#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.0",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
