@@ -3,11 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="css/tailwind.css">
+  <link rel="stylesheet" href="src/css/tailwind.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Tip calculator app</title>
 </head>
 <body class="bg-primary font-mono">
- 
+  <h1 class="text-secondary font-bold text-center uppercase block text-2xl w-2/4">S p l i t t e r</h1>
+  <form action="" id="form-bill">
+    <div>
+      <p class="warning"></p>
+      <label for="bill">Bill</label>
+      <input type="number" name="bill" id="bill" placeholder="0" min="0" class="text-right">
+    </div>
+    <div>
+      <label for="">Select Tip %</label>
+      <div class="grid grid-cols-3 text-center">
+        <button class="button_tip">5%</button>
+        <button class="button_tip">10%</button>
+        <button class="button_tip">15%</button>
+        <button class="button_tip">25%</button>
+        <button class="button_tip">50%</button>
+        <div><input type="number" name="custom" class="text-center" id="custom" placeholder="Custom"></div>
+      </div>
+      <div>
+        <p class="warning_people"></p>
+        <label for="people">Number of People</label>
+        <input type="number" name="people" id="people" class="text-right" placeholder="0">
+      </div>
+    </div>
+  </form>
+  <div>
+    <div>
+      <p>Tip Amount</p>
+      <p class="tip_amount">$0.00</p>
+    </div>
+    <div>
+      <p>Total</p>
+      <p class="total">$0.00</p>
+    </div>
+    <button class="reset">Reset</button>
+  </div>
+  <script src="src/js/script.js"></script>
 </body>
 </html>

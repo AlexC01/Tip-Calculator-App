@@ -9,6 +9,8 @@ module.exports = {
       colors: {
         primary: '#c5e4e7',
         secondary: '#00494d',
+        third: '#26c0ab',
+        inputs: '#f4fafa',
       }
     },
   },
