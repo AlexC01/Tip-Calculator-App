@@ -8,6 +8,7 @@ If you want to see it in live go to https://alexc01.github.io/tip-calculator-app
 ## Built With
 
 - Semantic HTL5 
+- CSS
 - TailwindCSS 
 - Javascript 
 
